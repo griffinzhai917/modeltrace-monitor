@@ -1,0 +1,18 @@
+{
+  "enabled": false,
+  "interval_seconds": 3600,
+  "confirmation_delay_seconds": 60,
+  "max_probe_requests_per_cycle": 6,
+  "minimum_probability": 0.95,
+  "maximum_expected_probability": 0.05,
+  "state_dir": "./state",
+  "targets": [
+    {
+      "id": "example-route",
+      "base_url": "http://127.0.0.1:8080/v1",
+      "api_key_env": "MODELTRACE_EXAMPLE_KEY",
+      "model": "gpt-6-astra",
+      "effort": "high"
+    }
+  ]
+}

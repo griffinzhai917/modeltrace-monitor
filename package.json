@@ -1,0 +1,14 @@
+{
+  "name": "modeltrace-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone scheduled ModelTrace warnings over an OpenAI-compatible Responses API",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "repository": { "type": "git", "url": "https://github.com/griffinzhai917/modeltrace-monitor.git" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node src/cli.mjs --check config.example.json"
+  }
+}

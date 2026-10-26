@@ -1,0 +1,12 @@
+node_modules/
+.local/
+state/
+config.json
+config.*.json
+!config.example.json
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+.DS_Store

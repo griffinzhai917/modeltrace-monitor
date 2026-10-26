@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/xqy2006/ModelTrace",
+  "commit": "6cd4a8ff0f3f4e49d6d6969dd2fbadfa1569fde2",
+  "files": {
+    "fingerprint-core.mjs": {
+      "source": "static/fingerprint-core.js",
+      "sha256": "83fa5bd611e18f8339122582335123c8ea168ed242298bb31f4e363abeeb6e4a"
+    },
+    "unified_bank.json": {
+      "source": "data/unified_bank.json",
+      "sha256": "f267d0513aa06981d024ec5394746fceddf44e4e8a75fa6bf8304255f4b32d6d"
+    },
+    "LICENSE": {
+      "source": "LICENSE",
+      "sha256": "238afb57e498990742f84b9ce6167b4e256ac06104a9938ce953bc41c14bea51"
+    }
+  }
+}
